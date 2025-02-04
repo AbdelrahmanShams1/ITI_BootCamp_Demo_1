@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.Css"/>
+    <title>To-Do List</title>
+</head>
+
+<body class="bg-light">
+    <div class="container mt-3 bg-white shadow-sm  mb-0 bg-body   p-0">
+        <div class="">
+            <div class=" p-3">
+                <h1 class="text-center ">To Do List</h1>
+                <div class="mb-4">
+                    <input type="text"  class="search-input form-control px-3 py-2 border border-secondary rounded-md focus:ring-2 focus:ring-primary" placeholder="Search tasks..." />
+                </div>
+                
+                
+                <div class="input-group mb-3">
+                    <div class="input-group-text">
+                        <input style="cursor: pointer" class="form-check-input mt-0 checkBox" type="checkbox"
+                            aria-label="Checkbox for following text input" />
+                    </div>
+                    <input type="text" class="form-control inputFiled" placeholder="Enter To-Do Test"
+                        aria-label="Text input with checkbox" />
+                </div>
+                <label for="date"> Due Date</label>
+                <div class="input-group mb-3">
+                    <input type="date" class="form-control inputDate" aria-label="Text input with checkbox" />
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary addButton" type="button">Add Task</button>
+                </div>
+                <div class="pendingTasks">
+                    <h4 class="mt-4">Pending Tasks</h4>
+                    <div class="toDoTasksPending">
+                        <div class="tasksP shadow-sm p-1 mb-2 rounded bg-body rounded"> 
+
+                        </div>
+                    </div>
+                </div>
+                <div class="completeTasks">
+                    <h4 class="mt-4">Complete Tasks</h4>
+                    <div class="toDoTasksComplete">
+                        <div class="tasksC shadow-sm p-1 mb-2 rounded bg-body rounded"> 
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>

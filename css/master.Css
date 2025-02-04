@@ -1,0 +1,25 @@
+.inputFiled:focus {
+   
+    box-shadow: 0 0 0 1px rgba(13, 110, 253, .25)  !important;
+    outline: none;
+}
+
+.container{
+        background-color: white;
+        max-width: 750px;
+        margin: 50px auto;
+    border-radius: 15px;
+}
+
+.buttons .btn{
+    padding: 2px 7px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.completed {
+    text-decoration-line: line-through;
+}
